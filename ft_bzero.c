@@ -12,5 +12,5 @@ void	ft_bzero(void *s, size_t n)
 		pt[i] = '\0';
 		i++;
 	}
-	..
+	.
 }

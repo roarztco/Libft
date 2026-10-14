@@ -24,3 +24,8 @@ int	ft_atoi(const char *nptr)
 	}
 	return ((int)n * sign);
 }
+
+int main(){
+	const char p[] = {'1', '1', '1', '1'};
+	printf("%d\n", ft_atoi(p));
+}

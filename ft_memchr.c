@@ -19,5 +19,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 int main(){
 	char *p = ft_memchr("rayane", 'y', 6);
 
-	printf("%s\n", *p);
+	printf("%c\n", *p);
 }

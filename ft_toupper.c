@@ -1,4 +1,5 @@
 #include "libft.h"
+
 int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
@@ -9,5 +10,5 @@ int	ft_toupper(int c)
 int main(){
 	char c;
 	c = ft_toupper('m');
-	
+	printf("%c\n", c);
 }

@@ -9,3 +9,8 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+int main(){
+	const char P[] = " ";
+	printf("%ld\n", ft_strlen(P));
+}

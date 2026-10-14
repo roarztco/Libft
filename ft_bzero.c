@@ -13,3 +13,12 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+int main(void)
+{
+	unsigned char pt[] = "rayane";
+
+	ft_bzero(pt, 0);
+	printf("%s\n", pt);
+	return (0);
+}

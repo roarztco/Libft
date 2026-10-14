@@ -9,6 +9,6 @@ int	ft_toupper(int c)
 
 int main(){
 	char c;
-	c = ft_toupper('m');
+	c = ft_toupper('n');
 	printf("%c\n", c);
 }

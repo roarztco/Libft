@@ -30,3 +30,9 @@ void *ft_memmove(void *dest, const void *src, size_t n)
     }
     return dest;
 }
+
+int main(void){
+    char p[6] = "345";
+    ft_memmove(p, "12345", 2);
+    printf("%s\n", p);
+}

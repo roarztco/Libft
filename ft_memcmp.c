@@ -19,5 +19,5 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 }
 
 int main(){
-	printf("%d\n", ft_memcmp("abc", "abc", 3));
+	printf("%d\n", ft_memcmp("axd", "abc", 3));
 }

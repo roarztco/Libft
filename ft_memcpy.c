@@ -16,3 +16,9 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+int main(void){
+	char p[6];
+	ft_memcpy(p, "roarz", 5);
+	printf("%s\n", p);
+}

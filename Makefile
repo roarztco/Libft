@@ -1,14 +1,14 @@
 
-NAME = libft.a
+NAME = libft.a		//clear
 
-CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CC = cc		//clear
+CFLAGS = -Wall -Wextra -Werror //clear
 
-AR = ar
-ARFLAGS = rcs
+AR = ar		//not clear
+ARFLAGS = rcs		//not clear
 
-SRCS = ft_isalpha.c
-OBJS = $(SRCS:.c=.o)
+SRCS = ft_isalpha.c		//clear
+OBJS = $(SRCS:.c=.o)	//not clear yet
 
 all: $(NAME)
 

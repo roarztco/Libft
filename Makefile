@@ -10,15 +10,15 @@ ARFLAGS = rcs		//not clear
 SRCS = ft_isalpha.c		//clear
 OBJS = $(SRCS:.c=.o)	//not clear yet
 
-all: $(NAME)
+all: $(NAME)		//not clear yet
 
-$(NAME): $(OBJS)
-	$(AR) $(ARFLAGS) $(NAME) $(OBJS)
+$(NAME): $(OBJS)		 //not clear yet
+	$(AR) $(ARFLAGS) $(NAME) $(OBJS)  //ncy
 
-%.o: %.c libft.h
-	$(CC) $(CFLAGS) -c $< -o $@
+%.o: %.c libft.h		//c
+	$(CC) $(CFLAGS) -c $< -o $@		//nc
 
-clean:
+clean:			//nc*
 	rm -f $(OBJS)
 
 fclean: clean

@@ -4,26 +4,26 @@ NAME = libft.a		//clear
 CC = cc		//clear
 CFLAGS = -Wall -Wextra -Werror //clear
 
-AR = ar		//not clear
-ARFLAGS = rcs		//not clear
+AR = ar		//clear
+ARFLAGS = rcs		//clear
 
 SRCS = ft_isalpha.c		//clear
-OBJS = $(SRCS:.c=.o)	//not clear yet
+OBJS = $(SRCS:.c=.o)	//clear
 
 all: $(NAME)		//not clear yet
 
-$(NAME): $(OBJS)		 //not clear yet
-	$(AR) $(ARFLAGS) $(NAME) $(OBJS)  //ncy
+$(NAME): $(OBJS)		 //clear
+	$(AR) $(ARFLAGS) $(NAME) $(OBJS)  //clear
 
 %.o: %.c libft.h		//c
 	$(CC) $(CFLAGS) -c $< -o $@		//nc
 
-clean:			//nc
+clean:			//clear
 	rm -f $(OBJS)
 
-fclean: clean
+fclean: clean		//clear
 	rm -f $(NAME)
 
-re: fclean all
+re: fclean all  	//clear
 
 .PHONY: all clean fclean re

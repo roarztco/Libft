@@ -1,0 +1,45 @@
+# Makefile
+
+what i have learned from spending the last 4 hours learning makefile.
+
+makefile is a text file contains the instructions for make program.
+
+it has three fundamental components.
+
+the target, dependency and recipe
+
+target: dependency
+
+cc -Wall -Werror -Wextra dependency.c -o target
+
+I also learned the variables in makefile, such as:
+
+NAME= (which takes the name of the target)
+
+CC= (the type of compiler)
+
+AR= (takes ar which is the archiver its role is to package object file into a static library)
+
+ARFLAGS= (contains rcs, which is replace create symbol index each one tells the program what to do, c create it creates the “.a” static library it was not created, s symbol index creates or updates an index of symbols helping the linker find functions inside the library)
+
+SRCS= (contains source files)
+
+OBJS= (contains object files)
+
+the targets:
+
+all: ensures the project is fully built and up to date
+
+clean: clean is used to delete all object files
+
+fclean: is used to delete all files.o and .a
+
+re: performs a real clean up rebuilds the project from scratch
+
+.PHONY: tells that certain targets represent actions not actual files
+
+More advanced:
+
+. first main idea about make **behaviour**(non-filtered): 
+
+make is an executable program. doesn’t just executes normal it does the execution organized. One of the interest things is that make doesn’t just executes the code once it reads it no, it does first analyze wtf is going on then it executes, it doesn’t compile the code by its order it looks at what each thing needs and then it compile it organized.

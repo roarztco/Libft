@@ -43,3 +43,18 @@ More advanced:
 . first main idea about make **behaviour**(non-filtered): 
 
 make is an executable program. doesn’t just executes normal it does the execution organized. One of the interest things is that make doesn’t just executes the code once it reads it no, it does first analyze wtf is going on then it executes, it doesn’t compile the code by its order it looks at what each thing needs and then it compile it organized.
+
+*when you run make in shell, first it goes through the operating system (kernel) here it creates and runs the process after that it goes to GNU it reads the makefile and plans how its going to be built after that we head to the compiler/archiver where it runs commands when needed
+
+![](https://cdn.discordapp.com/attachments/1223772428241604610/1560967796253401219/IMG_0647.jpg?ex=6ad4a40c&is=6ad3528c&hm=db16081d1e17734c5badad2cc21da91b972fde16295caefc55c030f71ae96465)
+
+another interesting thing in make is how it updates the object files, it updates them by using timestamps meaning it modifies the object file by its last modification time compared to it’s .c file if the .c file last modified time is earlier than .o then make knows it has to modify it.
+
+Example file modification times
+
+| File | Last modified |
+| --- | --- |
+| `ft_strlen.c` | 10:35:00 |
+| `ft_strlen.o` | 10:30:00 |
+
+The source file is newer than the object file, so Make determines that `ft_strlen.o` needs rebuilding.

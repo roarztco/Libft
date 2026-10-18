@@ -16,7 +16,7 @@ $(NAME): $(OBJS)		 //clear
 	$(AR) $(ARFLAGS) $(NAME) $(OBJS)  //clear
 
 %.o: %.c libft.h		//c
-	$(CC) $(CFLAGS) -c $< -o $@		//nc
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJS)

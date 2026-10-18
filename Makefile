@@ -7,7 +7,7 @@ CFLAGS = -Wall -Wextra -Werror //clear
 AR = ar		//clear
 ARFLAGS = rcs		//clear
 
-SRCS = ft_isalpha.c		//clear
+SRCS = ft_isalpha.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)

@@ -10,7 +10,7 @@ ARFLAGS = rcs		//clear
 SRCS = ft_isalpha.c		//clear
 OBJS = $(SRCS:.c=.o)	//clear
 
-all: $(NAME)		//not clear yet
+all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJS)

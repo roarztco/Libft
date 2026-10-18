@@ -15,7 +15,7 @@ all: $(NAME)		//not clear yet
 $(NAME): $(OBJS)		 //clear
 	$(AR) $(ARFLAGS) $(NAME) $(OBJS)  //clear
 
-%.o: %.c libft.h		//c
+%.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:

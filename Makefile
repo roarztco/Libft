@@ -8,7 +8,7 @@ AR = ar		//clear
 ARFLAGS = rcs		//clear
 
 SRCS = ft_isalpha.c		//clear
-OBJS = $(SRCS:.c=.o)	//clear
+OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
 

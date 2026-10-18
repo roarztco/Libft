@@ -4,7 +4,7 @@ NAME = libft.a		//clear
 CC = cc		//clear
 CFLAGS = -Wall -Wextra -Werror //clear
 
-AR = ar		//clear
+AR = ar
 ARFLAGS = rcs
 
 SRCS = ft_isalpha.c

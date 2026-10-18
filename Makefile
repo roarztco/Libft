@@ -1,7 +1,7 @@
 
 NAME = libft.a		//clear
 
-CC = cc		//clear
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 AR = ar

@@ -12,7 +12,7 @@ OBJS = $(SRCS:.c=.o)	//clear
 
 all: $(NAME)		//not clear yet
 
-$(NAME): $(OBJS)		 //clear
+$(NAME): $(OBJS)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJS)
 
 %.o: %.c libft.h

@@ -14,9 +14,7 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-#include "stdio.h"
 int main(void){
-	int m;
-
-	printf("%d",m);
-}
+	int n = 13 ;
+	ft_memset( n ,337, 4);
+} 

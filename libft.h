@@ -7,6 +7,7 @@
 #include <stdio.h>
 
 int ft_isalpha(int c);
+t_list *ft_lstlast(t_list *lst);
 
 typedef struct s_list
 {

@@ -14,5 +14,10 @@ t_list *ft_lstnew(void *content)
 
 int main()
 {
-    
+    int num;
+    t_list *node;
+
+    node = ft_lstnew(&num);
+
+    printf("%s\n")
 }

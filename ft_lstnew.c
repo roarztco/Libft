@@ -12,4 +12,7 @@ t_list *ft_lstnew(void *content)
     return (node);
 }
 
-int main
+int main()
+{
+    
+}

@@ -19,5 +19,6 @@ int main()
 
     node = ft_lstnew(&num);
 
-    printf("%s\n")
+    printf("%d\n", *(int *)node);
+
 }

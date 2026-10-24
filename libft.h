@@ -8,6 +8,7 @@
 
 int ft_isalpha(int c);
 t_list *ft_lstlast(t_list *lst);
+void	ft_lstdelone(t_list *lst, void (*del)(void *));
 
 typedef struct s_list
 {

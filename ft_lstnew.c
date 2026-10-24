@@ -24,7 +24,8 @@ int main()
     int num;
     t_list *node;
 
+    num = 42;
     node = ft_lstnew(&num);
 
-    printf("%d\n", *(int *)node);
+    printf("%d\n", *(int *)node->content);
 }

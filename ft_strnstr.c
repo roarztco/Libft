@@ -18,10 +18,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
     }
     return NULL;
 }
-
-int main()
-{
-    char *big = "Yo , Mr White can we cook some meth";
-    char *small = "can";
-    printf("%s", ft_strnstr(big, small, 20));
-}

@@ -46,7 +46,6 @@ char **ft_split(char const *s, char c)
         word = malloc(len + 1);
         if(!word)
         {
-            //still didn't get this part
             while(j > 0)
                 free(res[--j]);
             free(res);

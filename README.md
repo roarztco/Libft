@@ -164,14 +164,9 @@ The example program is only for demonstration and is not one of the project subm
 
 ### References
 
-- [Linux man-pages](https://man7.org/linux/man-pages/) — reference documentation for libc functions, memory allocation, and system calls (including `write`).
-- [The GNU C Library Manual](https://www.gnu.org/software/libc/manual/) — reference for C library behavior and string/memory functions.
-- [GNU Make Manual](https://www.gnu.org/software/make/manual/) — Makefile targets, dependencies, and build rules.
-- [GNU Binutils: `ar`](https://sourceware.org/binutils/docs/binutils/ar.html) — creating and managing static-library archives.
-- The **Libft subject, version 19.3** — requirements, prototypes, and authorized functions.
+- **Libft subject (version 19.3)** — project requirements, function prototypes, and expected behavior.
+- **C manual pages** (`man 3`) — reference for standard C functions such as `strlen`, `malloc`, and `free`.
 
 ### AI usage
 
-**ChatGPT (OpenAI)** was used as a learning and development aid while working through the three parts of Libft. Its use included explaining C pointers, memory allocation, string and memory manipulation, and linked lists; discussing function implementations and edge cases; helping reason about bugs and cleanup paths; and suggesting test examples. It was also used to discuss the Makefile and to draft this README.
-
-AI-assisted suggestions should be understood and independently checked against the subject, compiler warnings, and local tests before submission.
+AI was used as a learning aid throughout Libft to understand complex concepts, particularly pointers, memory management, and linked lists. It also helped with learning through test cases, code examples, and quizzes across the three parts of the project.

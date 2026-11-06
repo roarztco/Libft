@@ -6,12 +6,12 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/31 15:46:22 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/31 15:46:25 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:12:02 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+//.
 int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))

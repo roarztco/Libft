@@ -6,11 +6,9 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:12:19 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/29 18:13:17 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:17:56 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isasciii(int c)
 {

@@ -6,7 +6,7 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 18:45:00 by rghomari          #+#    #+#             */
-/*   Updated: 2026/11/01 18:46:50 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 10:51:53 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,8 @@ char	**ft_split(char const *s, char c)
 	char	**res;
 	size_t	count;
 
+	if (s == NULL)
+		return (NULL);
 	count = ft_count_words(s, c);
 	res = malloc((count + 1) * sizeof(char *));
 	if (res == NULL)

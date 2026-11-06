@@ -6,12 +6,12 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:08:11 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/29 18:08:30 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:15:56 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+//.
 int	ft_isalnum(int c)
 {
 	if (ft_isalpha(c) || ft_isdigit(c))

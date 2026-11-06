@@ -6,12 +6,11 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 18:47:38 by rghomari          #+#    #+#             */
-/*   Updated: 2026/11/01 18:49:14 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:06:09 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	ft_numlen(long n)
 {

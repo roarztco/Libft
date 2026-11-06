@@ -6,12 +6,11 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 22:03:25 by rghomari          #+#    #+#             */
-/*   Updated: 2026/11/01 17:57:40 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 17:56:34 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strdup(const char *s)
 {

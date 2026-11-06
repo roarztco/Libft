@@ -6,11 +6,9 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:05:49 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/29 18:06:37 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:18:28 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

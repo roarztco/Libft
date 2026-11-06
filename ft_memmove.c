@@ -6,7 +6,7 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/30 13:58:49 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/30 13:59:31 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 17:08:47 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char		*d;
 	const unsigned char	*s;
+	size_t				i;
 
-	if (dest == src || n == 0)
-		return (dest);
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
 	if (d > s)
@@ -30,6 +29,13 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		}
 	}
 	else
-		ft_memcpy(dest, src, n);
+	{
+		i = 0;
+		while (i < n)
+		{
+			d[i] = s[i];
+			i++;
+		}
+	}
 	return (dest);
 }

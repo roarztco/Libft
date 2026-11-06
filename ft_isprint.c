@@ -6,11 +6,9 @@
 /*   By: rghomari <rghomari@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 18:16:48 by rghomari          #+#    #+#             */
-/*   Updated: 2026/10/29 18:17:30 by rghomari         ###   ########.fr       */
+/*   Updated: 2026/11/06 12:18:51 by rghomari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {
